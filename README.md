@@ -2,7 +2,7 @@
 
 ### Description
 
-Project Men Vs Woman is a educational project for my data science class.  This project is supervised by Jarad Buckmaster to help keep the topic in order and correctly formatted. All information listed is facts provided by resources listed in **/notes/citations.md** or by [clicking here!](LINK). This project does not seek any debate for political or other discussions that are similar.  If you have a issue with the project or something about the project, please fill out a [bug report form here](LINK).
+Project Men Vs Woman is a educational project for my data science class.  This project is supervised by Jarad Buckmaster to help keep the topic in order and correctly formatted. All information listed is facts provided by resources listed in **/notes/citations.md** or by [clicking here!](https://github.com/Michael-07Y/men-vs-woman/blob/main/notes/citations.md). This project does not seek any debate for political or other discussions that are similar.  If you have a issue with the project or something about the project, please fill out a [bug report form here](https://forms.gle/VtdLwSY6qeQzm4my9).
 
 #
 
@@ -13,6 +13,8 @@ Project Men Vs Woman is a educational project for my data science class.  This p
 > **Topic** - Difference in men and woman
 >
 > **Version** - 0.00.00 ( Pre-Alpha )
+>
+> **Last Updated** - 05 / 14 / 2024
 
 #
 
@@ -36,6 +38,6 @@ This survey collects a opinion on what crimes are more common for men or women.
 
 This survey helps gather common opinion on the education and work level of men and women.
 
-[Education and Work Survey](LINK) (NOT AVAILABLE)
+[Education and Work Survey](https://forms.gle/YgjtLnNXzW9Kcq6L7) (AVAILABLE)
 
 #
