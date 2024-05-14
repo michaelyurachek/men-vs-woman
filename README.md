@@ -41,3 +41,11 @@ This survey helps gather common opinion on the education and work level of men a
 [Education and Work Survey](https://forms.gle/YgjtLnNXzW9Kcq6L7) (AVAILABLE)
 
 #
+
+### Recent Updates | 05 / 14 / 2024 5:50 PM
+
+> 1 - Updated all markdown files to have a list of file information.  This involves the creation date, creator, version, and last time it was updated.
+>
+> 2 - Created multiple files for the Google Drive involving google forms, and spreadsheet data.
+>
+> 3 - Created a new markdown file for past updates for users to checkout. 
