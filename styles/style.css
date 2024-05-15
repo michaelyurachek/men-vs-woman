@@ -1,0 +1,122 @@
+/* File information */
+/*
+Version: 0.00.01 (Pre-Alpha) 
+Creator: Michael Yurachek
+Last updated: 05 / 15 / 2024
+*/
+
+/* Page styling standards */
+* {
+    padding: 0;
+    margin: 0;
+    overflow: none;
+    user-select: none;
+    font-family: "bellyReg", sans-serif;
+}
+
+/* Font face (custom font setup) */
+@font-face {
+    font-family: 'babyPlum';
+    src: url("/men-vs-woman/assets/fonts/babyPlum.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+}
+
+@font-face {
+    font-family: 'bellyReg';
+    src: url("/men-vs-woman/assets/fonts/bellyReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+}
+
+@font-face {
+    font-family: 'inapReg';
+    src: url("/men-vs-woman/assets/fonts/inapReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+}
+
+/* :root setup for color pallete */
+:root {
+    --lighter: rgb(236, 236, 255);
+    --light: rgb(193, 193, 226);
+    --mid: rgb(135, 135, 158);
+    --dark: rgb(89, 89, 119);
+    --darker: rgb(55, 55, 75);
+    --grey: rgb(100, 100, 105);
+}
+
+/* Scroll bar decor */
+::-webkit-scrollbar {
+    width: 10px;
+    background-image: linear-gradient(to top, var(--grey), var(--dark));
+}
+
+::-webkit-scrollbar-button {
+    background-color: var(--darker);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
+/* Background and page container */
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.pageContainer {
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Page sections and styling */
+.pageSections {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#headerSection {
+    background-color: var(--lighter);
+    gap: 2vh;
+}
+
+/* Header sectiond decor */
+.headerParts {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerTitle {
+    flex-direction: column;
+}
+
+#headerTitle h1 {
+    padding: 1vh;
+    width: 90vw;
+    text-align: start;
+    font-size: 3em;
+    color: var(--dark);
+    text-shadow: .1em .1em 0 var(--light);
+}
+
+#headerTitle h3 {
+    width: 90vw;
+    padding: .5vh;
+    text-align: start;
+    color: var(--dark);
+    font-size: 2em;
+    text-shadow: .1em .1em 0 var(--light);
+}
