@@ -42,6 +42,6 @@
 >
 > **Creation Date** - 05 / 06 / 2024
 >
-> **Version** - 0.00.00 ( Pre-Alpha )
+> **Version** - 0.00.02 ( Pre-Alpha )
 >
-> **Last Updated** - 05 / 14 / 2024
+> **Last Updated** - 05 / 17 / 2024

@@ -1,8 +1,8 @@
 /* File information */
 /*
-Version: 0.00.01 (Pre-Alpha) 
+Version: 0.00.02 (Pre-Alpha) 
 Creator: Michael Yurachek
-Last updated: 05 / 15 / 2024
+Last updated: 05 / 17 / 2024
 */
 
 /* Page styling standards */
@@ -86,11 +86,13 @@ body {
 }
 
 #headerSection {
-    background-color: var(--lighter);
+    background-color: var(--darker);
     gap: 2vh;
+    background-image: url("/assets/images/headerBackground.png");
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.199) inset;
 }
 
-/* Header sectiond decor */
+/* Header section decor */
 .headerParts {
     width: 100vw;
     height: 30vh;
@@ -107,16 +109,58 @@ body {
     padding: 1vh;
     width: 90vw;
     text-align: start;
-    font-size: 3em;
-    color: var(--dark);
-    text-shadow: .1em .1em 0 var(--light);
+    font-size: 3.5em;
+    color: var(--lighter);
+    text-shadow: .1em .1em 0 var(--dark);
 }
 
 #headerTitle h3 {
     width: 90vw;
     padding: .5vh;
     text-align: start;
-    color: var(--dark);
+    font-size: 2.5em;
+    color: var(--lighter);
+    text-shadow: .1em .1em 0 var(--dark);
+}
+
+#headerSocials {
+    width: 90vw;
+    height: 5vh;
+    overflow: show;
+    display: flex;
+    justify-content: left;
+    gap: 1vw;
+}
+
+.headerIcons {
+    width: auto;
+    height: 3vh;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.headerIcons:hover {
+    transform: scale(1.1);
+}
+
+#headerList {
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#headerList h2 {
     font-size: 2em;
-    text-shadow: .1em .1em 0 var(--light);
+    color: var(--lighter);
+    text-shadow: .1em .1em 0 var(--dark);
+    width: 90vw;
+    text-align: left;
+}
+
+#headerList ul {
+    color: var(--lighter);
+    text-shadow: .1em .1em 0 var(--dark);
+    width: 90vw;
+    text-align: left;
+    line-height: 3vh;
+    font-size: 1.2em;
 }
