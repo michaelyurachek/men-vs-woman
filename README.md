@@ -20,7 +20,7 @@ Project Men Vs Woman is a educational project for my data science class.  This p
 
 ### Survey Forms
 
-``All answers are logged to a spreadsheet and completely anonymous to the public.  All data will be collected by 05/25/2024 and will be logged for cleaning. By filling out a survey, you the user agree that your opinion will be used for research purposes only.  This project is ran by a no bias mindset and will be presented that way.``
+``All answers are logged to a spreadsheet and completely anonymous to the public.  All data will be collected by 05/28/2024 and will be logged for cleaning. By filling out a survey, you the user agree to the Code of Conduct and the data that will be used.  This project is ran by a no bias mindset and will be presented that way.``
 
 **1) Common Actions:**
 
