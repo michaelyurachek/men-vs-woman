@@ -12,9 +12,9 @@ Project Men Vs Woman is a educational project for my data science class.  This p
 >
 > **Topic** - Difference in men and woman
 >
-> **Version** - 0.00.02 ( Pre-Alpha )
+> **Version** - 0.00.03 ( Pre-Alpha )
 >
-> **Last Updated** - 05 / 17 / 2024
+> **Last Updated** - 05 / 21 / 2024
 
 #
 
@@ -26,7 +26,7 @@ Project Men Vs Woman is a educational project for my data science class.  This p
 
 This survey checks the peoples opinion on what action is performed more commonly by men or women.
 
-[Common Actions Survey](LINK) (NOT AVAILABLE)
+[Common Actions Survey](https://forms.gle/6Bj5h7C6NFyWtbPr6) (AVAILABLE)
 
 **2) Criminal Actions:**
 
@@ -42,14 +42,16 @@ This survey helps gather common opinion on the education and work level of men a
 
 #
 
-### Recent Updates | 05 / 17 / 2024 9:30 AM
+### Recent Updates | 05 / 21 / 2024 10:05 AM
 
-> 1 - Updated html file and began working on the website for data visualization
+> 1 - Completed header setup for website and began data display
 >
-> 2 - Completed all Google forms and can now begin the survey process
+> 2 - Google surveys are now being collected and cleaned
 >
-> 3 - Created a bug report form in case people find bugs they would like to report
+> 3 - Starting the python scripts to make graphs
 >
-> 4 - Code of conduct was updated with form guidlines and a project copyright
+> 4 - Added csv files from the decorated spreadsheet
+>
+> 5 - Created presentation and will begin setup
 
-**New file versions** - ``0.00.02 (Pre-Alpha)``
+**New file versions** - ``0.00.03 (Pre-Alpha)``

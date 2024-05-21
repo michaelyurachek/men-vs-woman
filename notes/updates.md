@@ -27,3 +27,19 @@
 > 4 - Code of conduct was updated with form guidlines and a project copyright
 
 **New file versions** - ``0.00.02 (Pre-Alpha)``
+
+#
+
+### Recent Updates | 05 / 21 / 2024 10:05 AM
+
+> 1 - Completed header setup for website and began data display
+>
+> 2 - Google surveys are now being collected and cleaned
+>
+> 3 - Starting the python scripts to make graphs
+>
+> 4 - Added csv files from the decorated spreadsheet
+>
+> 5 - Created presentation and will begin setup
+
+**New file versions** - ``0.00.03 (Pre-Alpha)``

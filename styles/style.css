@@ -1,8 +1,8 @@
 /* File information */
 /*
-Version: 0.00.02 (Pre-Alpha) 
+Version: 0.00.03 (Pre-Alpha) 
 Creator: Michael Yurachek
-Last updated: 05 / 17 / 2024
+Last updated: 05 / 21 / 2024
 */
 
 /* Page styling standards */
@@ -88,12 +88,12 @@ body {
 #headerSection {
     background-color: var(--darker);
     gap: 2vh;
-    background-image: url("/assets/images/headerBackground.png");
+    background-image: url("/assets/images/background/headerBackground.png");
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.199) inset;
     border-bottom: .2vh solid white;
 }
 
-#sectionWork {
+#fjSection {
     background-color: var(--light);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0));
     flex-direction: row;
@@ -170,4 +170,69 @@ body {
     text-align: left;
     line-height: 3vh;
     font-size: 1.2em;
+}
+
+#headerCopyright {
+    align-items: end;
+}
+
+#headerCopyright p {
+    color: var(--lighter);
+    width: 90%;
+    text-align: right;
+    padding: 2vh;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em var(--grey);
+}
+
+/* Finance and work section decor */
+.fjInfoHolder {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+#fjInfo h1 {
+    color: var(--lighter);
+    font-size: 3em;
+    width: 80%;
+    text-align: center;
+    text-wrap:wrap;
+}
+
+.fjDescriptionHold {
+    width: 90%;
+    height: 30%;
+    background-color: var(--mid);
+    box-shadow: .3vw .3vw 0 var(--lighter);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.1s ease-in;
+}
+
+.fjDescriptionHold:hover {
+    background-color: var(--dark);
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: .5vw .5vw 0 var(--darker);
+}
+
+.fjDescriptionHold h3 {
+    color: var(--lighter);
+    padding: 2vh;
+    font-size: 2em;
+}
+
+.fjDescriptionHold p {
+    color: var(--light);
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
 }
