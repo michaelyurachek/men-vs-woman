@@ -3,6 +3,7 @@
 # Creator: Michael Yurachek
 # Last updated: 05 / 21 / 2024
 
+import os
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -40,6 +41,14 @@ plt.grid(True, linestyle='--', alpha=0.6)
 # Adjust x-axis ticks
 plt.xticks(yr, rotation=45)  # Rotate x-axis labels for better readability
 
+# Save plot image
+strFile = "./assets/images/graphs/genderHighGPAGraph.png"
+if os.path.isfile(strFile):
+    os.remove(strFile)   # Remove the existing file if it exists
+plt.savefig(strFile)
+
 # Show plot
 plt.tight_layout()  # Adjust layout to prevent clipping of labels
 plt.show()
+
+os.system('cls||clear')
