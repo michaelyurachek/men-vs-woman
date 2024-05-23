@@ -1,7 +1,7 @@
 # File Information
-# Version: 0.00.03 (Pre-Alpha) 
+# Version: 0.00.04 (Pre-Alpha) 
 # Creator: Michael Yurachek
-# Last updated: 05 / 21 / 2024
+# Last updated: 05 / 23 / 2024
 
 import os
 import matplotlib.pyplot as plt

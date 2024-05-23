@@ -43,3 +43,18 @@
 > 5 - Created presentation and will begin setup
 
 **New file versions** - ``0.00.03 (Pre-Alpha)``
+
+#
+
+### Recent Updates | 05 / 23 / 2024 10:50 AM
+
+> 1 - Added new Python files
+>
+> 2 - Implemented automation for updating the graphs from Python
+>
+> 3 - Website now displays the graphs on each section as needed
+>
+> 4 - Fixed formats and updated code to looked more organized
+
+
+**New file versions** - ``0.00.04 (Pre-Alpha)``

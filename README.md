@@ -12,9 +12,9 @@ Project Men Vs Woman is a educational project for my data science class.  This p
 >
 > **Topic** - Difference in men and woman
 >
-> **Version** - 0.00.03 ( Pre-Alpha )
+> **Version** - 0.00.04 ( Pre-Alpha )
 >
-> **Last Updated** - 05 / 21 / 2024
+> **Last Updated** - 05 / 23 / 2024
 
 #
 
@@ -42,16 +42,16 @@ This survey helps gather common opinion on the education and work level of men a
 
 #
 
-### Recent Updates | 05 / 21 / 2024 10:05 AM
+### Recent Updates | 05 / 23 / 2024 10:50 AM
 
-> 1 - Completed header setup for website and began data display
+> 1 - Added new Python files
 >
-> 2 - Google surveys are now being collected and cleaned
+> 2 - Implemented automation for updating the graphs from Python
 >
-> 3 - Starting the python scripts to make graphs
+> 3 - Website now displays the graphs on each section as needed
 >
-> 4 - Added csv files from the decorated spreadsheet
->
-> 5 - Created presentation and will begin setup
+> 4 - Fixed formats and updated code to looked more organized
 
-**New file versions** - ``0.00.03 (Pre-Alpha)``
+
+**New file versions** - ``0.00.04 (Pre-Alpha)``
+

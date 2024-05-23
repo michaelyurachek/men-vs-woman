@@ -1,8 +1,8 @@
 /* File information */
 /*
-Version: 0.00.03 (Pre-Alpha) 
+Version: 0.00.04 (Pre-Alpha) 
 Creator: Michael Yurachek
-Last updated: 05 / 21 / 2024
+Last updated: 05 / 23 / 2024
 */
 
 /* Page styling standards */
@@ -83,6 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-bottom: .2vh solid white;
 }
 
 #headerSection {
@@ -90,13 +91,21 @@ body {
     gap: 2vh;
     background-image: url("/assets/images/background/headerBackground.png");
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.199) inset;
-    border-bottom: .2vh solid white;
 }
 
-#fjSection {
+#fjIncSection {
     background-color: var(--light);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0));
     flex-direction: row;
+}
+
+#fjEducSection {
+    background-image: url("/assets/images/background/transparentBackground.png"), linear-gradient(to right, var(--darker), var(--lighter));
+    background-size: cover;
+    filter:saturate(200%);
+    box-shadow: 0 0 20vw rgba(0, 0, 0, 0.493) inset;
+    flex-direction: row;
+    gap: 2.5vw;
 }
 
 /* Header section decor */
@@ -232,7 +241,87 @@ body {
 
 .fjDescriptionHold p {
     color: var(--light);
-    width: 90%;
+    width: 80%;
     text-align: center;
     font-weight: bold;
+    line-height: 3vh;
+    font-size: 1.25em;
+}
+
+#fjImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    flex-direction: column;
+}
+
+#fjImages img {
+    width: 40vw;
+    height: auto;
+    border-radius: .5vw;
+    box-shadow: .5vw .5vw 0 var(--dark);
+}
+
+/* Education Information Decor */
+.educationContainer {
+    width: 29vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#edcDescReps {
+    gap: 2vh;
+}
+
+#edcDescReps h3 {
+    font-size: 2.5em;
+    color: white;
+}
+
+#edcGraphs {
+    width: 35vw;
+    height: 100vh;
+}
+
+#highGraph {
+    display: block;
+}
+
+.edGraphImages {
+    display: none;
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imageNavButtons {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 1vh;
+    font-size: 3em;
+    border-radius: 100vw;
+    text-align: center;
+    transition: 0.1s ease-in;
+    position: absolute;
+}
+
+.imageNavButtons:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: var(--light);
+    text-shadow: 0 0 5px var(--lighter);
+}
+
+#edcBackBtn {
+    top: 48vh;
+    left: 30vw;
+}
+
+#edcNextBtn {
+    top: 48vh;
+    right: 30vw;
 }

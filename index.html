@@ -1,8 +1,8 @@
 <!-- File information -->
 <!-- 
-Version: 0.00.03 (Pre-Alpha) 
+Version: 0.00.04 (Pre-Alpha) 
 Creator: Michael Yurachek
-Last updated: 05 / 21 / 2024
+Last updated: 05 / 23 / 2024
 -->
 
 <!DOCTYPE html>
@@ -12,12 +12,13 @@ Last updated: 05 / 21 / 2024
         <title>| Home</title>
         <link rel="stylesheet" type="text/css" href="/styles/style.css">
         <link rel="shortcut icon" type="image/png" href="/assets/images/logos/mvwLogo.png">
+        <script src="/scripts/script.js"></script>
     </head>
     <body>
         <div class="pageContainer">
             <div class="pageSections" id="headerSection">
                 <div class="headerParts" id="headerTitle">
-                    <h1>Men Versus Women from a learning data scientist</h1>
+                    <h1>Men Versus Women from learning data scientists</h1>
                     <h3>By Michael Yurachek, Bryden Kite</h3>
                     <div id="headerSocials">
                         <img src="/assets/images/social-icons/0001.png" class="headerIcons" onclick="window.location.assign('https://www.instagram.com/skyzerbefr/')">
@@ -39,20 +40,38 @@ Last updated: 05 / 21 / 2024
                     <p>Copyright Ⓒ 5 / 21 / 2024 https://github.com/michael-07y/</p>
                 </div>
             </div>
-            <div class="pageSections" id="fjSection">
+            <div class="pageSections" id="fjIncSection">
                 <div class="fjInfoHolder" id="fjInfo">
                     <h1>Work oppertunity and finance details:</h1>
                     <div class="fjDescriptionHold">
                         <h3>Survey Results</h3>
-                        <p>EXAMPLE TEXT</p>
+                        <p>This graph serves as a window into the complex landscape of gender dynamics within the workplace, gleaned from comprehensive surveys of work-related experiences. By analyzing responses from students, it offers valuable insights into the multifaceted nature of gender disparities in contemporary work environments.</p>
                     </div>
                     <div class="fjDescriptionHold">
                         <h3>Finance Details</h3>
-                        <p>EXAMPLE TEXT</p>
+                        <p>This graph illustrates the compelling narrative of gender disparities in workplace income over time. By examining the income trends of men and women across various industries, it provides a display in a massive difference of equality by pay.</p>
                     </div>
                 </div>
                 <div class="fjInfoHolder" id="fjImages">
-
+                    <img src="/assets/images/graphs/genderIncomeGraph.png">
+                    <img src="/assets/images/graphs/genderIncomeGraph.png">
+                </div>
+            </div>
+            <div class="pageSections" id="fjEducSection">
+                <div class="educationContainer" id="edcDescReps">
+                    <h3>Education Differences</h3>
+                    <p>EXAMPLE TEXT</p>
+                </div>
+                <div class="educationContainer" id="edcGraphs">
+                    <img class="edGraphImages" src="/assets/images/graphs/genderHighGPAGraph.png" id="highGraph">
+                    <img class="edGraphImages" src="/assets/images/graphs/genderColGPAGraph.png" id="collegeGraph">
+                    <img class="edGraphImages" src="/assets/images/graphs/genderColGPAGraph.png" id="edcSurveyGraph">
+                    <a class="imageNavButtons" id="edcBackBtn" onclick="nextGraph()"><</a>
+                    <a class="imageNavButtons" id="edcNextBtn" onclick="nextGraph()">></a>
+                </div>
+                <div class="educationContainer" id="edcSurveyReps">
+                    <h3>Survey Responses</h3>
+                    <p>EXAMPLE TEXT</p>
                 </div>
             </div>
         </div>
