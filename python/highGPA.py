@@ -24,8 +24,8 @@ plt.figure(figsize=(10,6))
 # Plot male high school GPA with blue color and solid line
 plt.plot(yr, mHSgpa, color='blue', linestyle='-', linewidth=2, label='Male High School GPA')
 
-# Plot female high school GPA with red color and dashed line
-plt.plot(yr, fHSgpa, color='red', linestyle='--', linewidth=2, label='Female High School GPA')
+# Plot female high school GPA with hotpink color and dashed line
+plt.plot(yr, fHSgpa, color='hotpink', linestyle='--', linewidth=2, label='Female High School GPA')
 
 # Add labels and title
 plt.xlabel('Year')
