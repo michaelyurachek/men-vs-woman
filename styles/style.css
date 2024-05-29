@@ -1,8 +1,8 @@
 /* File information */
 /*
-Version: 0.00.04 (Pre-Alpha) 
+Version: 0.25.01 (Alpha)
 Creator: Michael Yurachek
-Last updated: 05 / 23 / 2024
+Last updated: 05 / 29 / 2024
 */
 
 /* Page styling standards */
@@ -17,17 +17,17 @@ Last updated: 05 / 23 / 2024
 /* Font face (custom font setup) */
 @font-face {
     font-family: 'babyPlum';
-    src: url("/men-vs-woman/assets/fonts/babyPlum.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    src: url("/assets/fonts/babyPlum.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
 }
 
 @font-face {
     font-family: 'bellyReg';
-    src: url("/men-vs-woman/assets/fonts/bellyReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    src: url("/assets/fonts/bellyReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
 }
 
 @font-face {
     font-family: 'inapReg';
-    src: url("/men-vs-woman/assets/fonts/inapReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    src: url("/assets/fonts/inapReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
 }
 
 /* :root setup for color pallete */
@@ -68,7 +68,7 @@ body {
 
 .pageContainer {
     width: 100vw;
-    height: 500vh;
+    height: 600vh;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -89,23 +89,41 @@ body {
 #headerSection {
     background-color: var(--darker);
     gap: 2vh;
-    background-image: url("/assets/images/background/headerBackground.png");
+    background-image: url("/assets/images/background/headerBackground.png"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.199) inset;
 }
 
 #fjIncSection {
-    background-color: var(--light);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0));
+    background-image: url("/assets/images/background/mountainBack.jpg");
     flex-direction: row;
 }
 
 #fjEducSection {
-    background-image: url("/assets/images/background/transparentBackground.png"), linear-gradient(to right, var(--darker), var(--lighter));
+    background-image: url("/assets/images/background/transparentBackground.png"), linear-gradient(to right, var(--darker), var(--lighter)); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
     background-size: cover;
     filter:saturate(200%);
     box-shadow: 0 0 20vw rgba(0, 0, 0, 0.493) inset;
     flex-direction: row;
     gap: 2.5vw;
+}
+
+#ageDifSection {
+    background-color: var(--lighter);
+    flex-direction: row;
+    gap: 1vw;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.458) inset;
+}
+
+#informationSourceSection {
+    background-image: linear-gradient(45deg, rgb(37, 38, 47), rgb(49, 51, 69));
+    flex-direction: column;
+}
+
+#presentationSection {
+    background-image: url("/assets/images/background/sceneBeach.jpg"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    box-shadow: 0 0 200px black inset;
+    flex-direction: row;
+    overflow: hidden;
 }
 
 /* Header section decor */
@@ -208,15 +226,16 @@ body {
 #fjInfo h1 {
     color: var(--lighter);
     font-size: 3em;
-    width: 80%;
+    width: 70%;
     text-align: center;
-    text-wrap:wrap;
+    text-wrap: wrap;
+    text-shadow: .1em .1em 0 var(--mid);
 }
 
 .fjDescriptionHold {
     width: 90%;
     height: 30%;
-    background-color: var(--mid);
+    background-color: rgba(0, 0, 0, 0.574);
     box-shadow: .3vw .3vw 0 var(--lighter);
     border-radius: 10px;
     display: flex;
@@ -227,7 +246,7 @@ body {
 }
 
 .fjDescriptionHold:hover {
-    background-color: var(--dark);
+    background-color: rgba(41, 39, 61, 0.533);
     transform: scale(1.04);
     cursor: pointer;
     box-shadow: .5vw .5vw 0 var(--darker);
@@ -279,6 +298,7 @@ body {
     width: 90%;
     text-align: center;
     line-height: 4vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #edcDescReps {
@@ -288,6 +308,7 @@ body {
 .educationContainer h3 {
     font-size: 2.5em;
     color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #edcGraphs {
@@ -332,4 +353,143 @@ body {
 #edcNextBtn {
     top: 48vh;
     right: 30vw;
+}
+
+/* Age Difference and Death Rate decor */
+.ageContainerBlock {
+    width: 48vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.ageContainerBlock img {
+    width: 90%;
+    height: auto;
+    border: 2px ridge black;
+}
+
+.ageContainerText {
+    width: 95%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(193, 189, 209);
+    background-image: linear-gradient(45deg, rgba(91, 88, 88, 0.623), rgba(51, 51, 70, 0.721));
+}
+
+.ageContainerText h1 {
+    color: var(--light);
+    font-size: 3em;
+    text-shadow: .1em .1em 0 var(--dark);
+    padding: 1vh;
+    font-family: 'inapReg', sans-serif;
+}
+
+.ageContainerText p {
+    color: var(--light);
+    font-size: 1.2em;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.45vh;
+    font-family: 'bellyReg', sans-serif;
+}
+
+/* Source links decor */
+#informationSourceSection h1 {
+    color: var(--lighter);
+    font-size: 3.5em;
+    text-shadow: .05em .05em 0 var(--mid);
+    padding: 3vh;
+}
+
+#sourceLinksBox {
+    width: 60%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.394);
+    border-radius: 30px;
+    box-shadow: 0 0 40px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.sourceText {
+    padding: 2vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0));
+    width: 80%;
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1.7em;
+    border-left: 5px ridge white;
+    transition: 0.2s ease;
+}
+
+.sourceText:hover {
+    color: var(--lighter);
+    text-shadow: .1em .1em 0 var(--dark);
+    font-weight: bold;
+    padding: 2.5vh;
+    background-image: linear-gradient(to right, var(--dark), rgba(52, 59, 94, 0.054), rgba(0, 0, 0, 0));
+}
+
+/* Presentation & video decor */
+.presentBlocks {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nonVideoHolder {
+    background-color: rgba(0, 0, 0, 0.867);
+    box-shadow: 0 0 40px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nonVideoHolder h1 {
+    color: white;
+    font-size: 3em;
+    padding: 2vh;
+}
+
+#nonVideoHolder p {
+    width: 90%;
+    padding: 5vh;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+#nonVideoHolder a {
+    width: 90%;
+    padding: 2vh;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    font-size: 1.5em;
+    transition: 0.2s ease;
+}
+
+#nonVideoHolder a:hover {
+    font-size: 1.8em;
+    padding: 2vh;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(255, 230, 173);
+    text-shadow: .1em .1em 0 rgb(107, 118, 132);
 }

@@ -58,3 +58,20 @@
 
 
 **New file versions** - ``0.00.04 (Pre-Alpha)``
+
+#
+
+### Recent Updates | 05 / 29 / 2024 5:58 PM
+
+> 1 - Added new Python files for new data display
+>
+> 2 - Added code to the HTML file and also styled using CSS
+>
+> 3 - Finished the base of the website and working on the rough draft
+>
+> 4 - Added a simple script to the website for unique use of images
+>
+> 5 - Updating markdown files and formatting of code
+
+
+**New file versions** - ``0.25.01 (Alpha)``
