@@ -75,3 +75,16 @@
 
 
 **New file versions** - ``0.25.01 (Alpha)``
+
+#
+
+### Recent Updates | 05 / 30 / 2024 6:58 PM
+
+> 1 - Completed Website for a 1920x1080p monitor (Use inspect element and change size to see the best quality!)
+>
+> 2 - Continuing to finishing documentation and cleaning information for submission
+>
+> 3 - Also verifying grammar and all data used
+
+
+**New file versions** - ``0.50.01 (Pre-Beta)``

@@ -10,12 +10,20 @@ All spreadsheets have used the data below to display the information by graphs. 
 
 #
 
+### Other Citation Websites
+
+> 1# **Flaticon** (All Icons) - [Resource Link](https://www.flaticon.com/free-icons/social-media)
+>
+> 2# **Yandex** (All Images) - [Resource Link](https://yandex.com/images/)
+
+#
+
 ### File Information
 
 > **Creator** - Michael Yurachek
 >
 > **Creation Date** - 05 / 06 / 2024
 >
-> **Version** - 0.25.01 (Alpha)
+> **Version** - 0.50.01 (Pre-Beta)
 >
-> **Last Updated** - 05 / 29 / 2024
+> **Last Updated** - 05 / 30 / 2024

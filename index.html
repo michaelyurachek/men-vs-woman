@@ -1,27 +1,27 @@
 <!-- File information -->
 <!-- 
-Version: 0.25.01 (Alpha)
-Creator: Michael Yurachek
-Last updated: 05 / 29 / 2024
+    Version: 0.50.01 (Pre-Beta)
+    Creator: Michael Yurachek
+    Last updated: 05 / 30 / 2024
 -->
 <!DOCTYPE html>
 <html>
-    <head>
+    <head> <!-- Webpage settings -->
         <title>| Home</title>
-        <link rel="stylesheet" type="text/css" href="/styles/style.css">
-        <link rel="shortcut icon" type="image/png" href="/assets/images/logos/mvwLogo.png">
-        <script src="/scripts/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="./men-vs-woman/styles/style.css">
+        <link rel="shortcut icon" type="image/png" href="./men-vs-woman/assets/images/logos/mvwLogo.png">
+        <script src="./men-vs-woman/scripts/script.js"></script>
     </head>
     <body>
-        <div class="pageContainer">
-            <div class="pageSections" id="headerSection">
+        <div class="pageContainer"> <!-- Page container to hold everything -->
+            <div class="pageSections" id="headerSection"> <!-- "pageSections" class is a universal block for the ability to customize individual sections --> <!-- Header Section -->
                 <div class="headerParts" id="headerTitle">
                     <h1>Men Versus Women from learning data scientists</h1>
                     <h3>By Michael Yurachek, Bryden Kite</h3>
                     <div id="headerSocials">
-                        <img src="/assets/images/social-icons/0001.png" class="headerIcons" onclick="window.location.assign('https://www.instagram.com/michaelyurachek/')">
-                        <img src="/assets/images/social-icons/0002.png" class="headerIcons" onclick="window.location.assign('https://github.com/Michael-07Y')">
-                        <img src="/assets/images/social-icons/0003.png" class="headerIcons" onclick="window.location.assign('https://www.snapchat.com/add/skyzer_07?invite_id=PzQfgXtn&locale=en_US&share_id=LRT02RfeQsi0oRTSPk3Iqg&sid=e13db09132ff4e55b3a0f35a4a761dc1')">
+                        <img src="./men-vs-woman/assets/images/social-icons/0001.png" class="headerIcons" onclick="window.location.assign('https://www.instagram.com/michaelyurachek/')">
+                        <img src="./men-vs-woman/assets/images/social-icons/0002.png" class="headerIcons" onclick="window.location.assign('https://github.com/Michael-07Y')">
+                        <img src="./men-vs-woman/assets/images/social-icons/0003.png" class="headerIcons" onclick="window.location.assign('https://www.snapchat.com/add/skyzer_07?invite_id=PzQfgXtn&locale=en_US&share_id=LRT02RfeQsi0oRTSPk3Iqg&sid=e13db09132ff4e55b3a0f35a4a761dc1')">
                     </div>
                 </div>
                 <div class="headerParts" id="headerList">
@@ -38,7 +38,7 @@ Last updated: 05 / 29 / 2024
                     <p>Copyright Ⓒ 5 / 29 / 2024 https://github.com/michael-07y/</p>
                 </div>
             </div>
-            <div class="pageSections" id="fjIncSection">
+            <div class="pageSections" id="fjIncSection"> <!-- Financial & income section -->
                 <div class="fjInfoHolder" id="fjInfo">
                     <h1>Work oppertunity and finance details:</h1>
                     <div class="fjDescriptionHold">
@@ -51,28 +51,28 @@ Last updated: 05 / 29 / 2024
                     </div>
                 </div>
                 <div class="fjInfoHolder" id="fjImages">
-                    <img src="/assets/images/graphs/genderIncomeGraph.png"> <!-- CHANGE TO SURVEY RESULTS -->
-                    <img src="/assets/images/graphs/genderIncomeGraph.png"> 
+                    <img src="./men-vs-woman/assets/images/graphs/workOpinionGraph.png">
+                    <img src="./men-vs-woman/assets/images/graphs/genderIncomeGraph.png"> 
                 </div>
             </div>
-            <div class="pageSections" id="fjEducSection">
+            <div class="pageSections" id="fjEducSection"> <!-- Education section -->
                 <div class="educationContainer" id="edcDescReps">
                     <h3>Education Differences</h3>
                     <p>As time goes on, by the visual of the differences in GPA in college and high school, females have been the leading average for higher GPA.  By the visualization, the peak of high school GPA was around 2010 and the lowest drop was around 2020. Also the college graph shows how the Covid pandemic made a massive change to GPA in college by different genders. </p>
                 </div>
                 <div class="educationContainer" id="edcGraphs">
-                    <img class="edGraphImages" src="/assets/images/graphs/genderHighGPAGraph.png" id="highGraph"> <!-- Graph #1 -->
-                    <img class="edGraphImages" src="/assets/images/graphs/genderColGPAGraph.png" id="collegeGraph"> <!-- Graph #2 -->
-                    <img class="edGraphImages" src="/assets/images/graphs/genderIncomeGraph.png" id="edcSurveyGraph"> <!-- Graph #3 -->
+                    <img class="edGraphImages" src="./men-vs-woman/assets/images/graphs/genderHighGPAGraph.png" id="highGraph"> <!-- Graph #1 -->
+                    <img class="edGraphImages" src="./men-vs-woman/assets/images/graphs/genderColGPAGraph.png" id="collegeGraph"> <!-- Graph #2 -->
+                    <img class="edGraphImages" src="./men-vs-woman/assets/images/graphs/educationalOutcomesGraph.png" id="edcSurveyGraph"> <!-- Graph #3 -->
                     <a class="imageNavButtons" id="edcBackBtn" onclick="nextGraph(1)"><</a>
                     <a class="imageNavButtons" id="edcNextBtn" onclick="nextGraph(2)">></a>
                 </div>
                 <div class="educationContainer" id="edcSurveyReps">
                     <h3>Survey Responses</h3>
-                    <p>EXAMPLE TEXT</p>
+                    <p>The survey results depicted in the education graph indicate clear trends in perceptions of educational outcomes based on gender. Respondents believe that males are more likely to graduate with an advanced diploma, as evidenced by the higher likelihood scores toward the male end of the scale. Standard classes show a relatively even distribution, suggesting that both genders are equally perceived as likely to take standard classes. Advanced classes like AP or honors are perceived to be more frequently pursued by males, with a noticeable increase in likelihood scores towards the male end.</p>
                 </div>
             </div>
-            <div class="pageSections" id="ageDifSection">
+            <div class="pageSections" id="ageDifSection"> <!-- Age difference and death average section -->
                 <div class="ageContainerBlock">
                     <div class="ageContainerText">
                         <h1>Average Age of Death</h1>
@@ -84,10 +84,10 @@ Last updated: 05 / 29 / 2024
                     </div>
                 </div>
                 <div class="ageContainerBlock">
-                    <img src="/assets/images/graphs/genderDeathProbGraph.png">
+                    <img src="./men-vs-woman/assets/images/graphs/genderDeathProbGraph.png">
                 </div>
             </div>
-            <div class="pageSections" id="informationSourceSection">
+            <div class="pageSections" id="informationSourceSection"> <!-- Source information section -->
                 <h1>Source Information and Links:</h1>
                 <div id="sourceLinksBox">
                     <a class="sourceText" href="https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-people.html">United States Census Bureau</a>
@@ -97,15 +97,12 @@ Last updated: 05 / 29 / 2024
                     <a class="sourceText" href="https://drive.google.com/drive/folders/1mZ22QegjquhGVrqrIcK8erMLIvcjSFlb?usp=sharing">Google Drive</a>
                     <a class="sourceText" href="https://github.com/Michael-07Y/men-vs-woman/tree/main">Source Files</a>
                 </div>
-            </div>
-            <div class="pageSections" id="presentationSection">
-                <div class="presentBlocks">
-                    <h2>Video Here</h2>
-                </div>
+            </div> 
+            <div class="pageSections" id="presentationSection"> <!-- Presentation section -->
                 <div class="presentBlocks" id="nonVideoHolder">
                     <h1>Presentation Slides</h1>
                     <p>If you wish to see this project in a more visual and easy to use way, please consider using the link below to head straight to the Google Presentation.  All information is exactly the same as the website, but more accessible to all users and easy to read!</p>
-                    <a>Google Presentation</a>
+                    <a href="https://docs.google.com/presentation/d/19d0PrzGJ6ikQx1eswsgUyjnvON5umpixMmubN9_yBD4/edit?usp=sharing">Google Presentation</a>
                 </div>
             </div>
         </div>

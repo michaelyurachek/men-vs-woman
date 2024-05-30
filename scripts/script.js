@@ -1,3 +1,8 @@
+// File Information
+// Version: 0.50.01 (Pre-Beta)
+// Creator: Michael Yurachek
+// Last updated: 05 / 30 / 2024
+
 currentGraph = 1;
 function nextGraph(direction) {
     if (direction == 1) {
