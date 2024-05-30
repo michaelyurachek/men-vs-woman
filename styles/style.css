@@ -17,17 +17,17 @@
 /* Font face (custom font setup) */
 @font-face {
     font-family: 'babyPlum';
-    src: url("./men-vs-woman/assets/fonts/babyPlum.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    src: url("/men-vs-woman/assets/fonts/babyPlum.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
 }
 
 @font-face {
     font-family: 'bellyReg';
-    src: url("./men-vs-woman/assets/fonts/bellyReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    src: url("/men-vs-woman/assets/fonts/bellyReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
 }
 
 @font-face {
     font-family: 'inapReg';
-    src: url("./men-vs-woman/assets/fonts/inapReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    src: url("/men-vs-woman/assets/fonts/inapReg.ttf"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
 }
 
 /* :root setup for color pallete */
@@ -89,17 +89,17 @@ body {
 #headerSection {
     background-color: var(--darker);
     gap: 2vh;
-    background-image: url("./men-vs-woman/assets/images/background/headerBackground.png"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    background-image: url("/men-vs-woman/assets/images/background/headerBackground.png"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.199) inset;
 }
 
 #fjIncSection {
-    background-image: url("./men-vs-woman/assets/images/background/mountainBack.jpg");
+    background-image: url("/men-vs-woman/assets/images/background/mountainBack.jpg");
     flex-direction: row;
 }
 
 #fjEducSection {
-    background-image: url("./men-vs-woman/assets/images/background/transparentBackground.png"), linear-gradient(to right, var(--darker), var(--lighter)); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    background-image: url("/men-vs-woman/assets/images/background/transparentBackground.png"), linear-gradient(to right, var(--darker), var(--lighter)); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
     background-size: cover;
     filter:saturate(200%);
     box-shadow: 0 0 20vw rgba(0, 0, 0, 0.493) inset;
@@ -120,7 +120,7 @@ body {
 }
 
 #presentationSection {
-    background-image: url("./men-vs-woman/assets/images/background/sceneBeach.jpg"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
+    background-image: url("/men-vs-woman/assets/images/background/sceneBeach.jpg"); /* CHANGE TO /men-vs-woman/ WHEN COMMITING */
     box-shadow: 0 0 200px black inset;
     flex-direction: row;
     overflow: hidden;
