@@ -21,10 +21,10 @@ femaleInc = df['Avg Income (Female)']
 # Plotting
 plt.figure(figsize=(10,6))
 
-# Plot male high school GPA with blue color and solid line
+# Plot male income with blue color and solid line
 plt.plot(yr, maleInc, color='blue', linestyle='-', linewidth=2, label='Male Average Income')
 
-# Plot female high school GPA with hotpink color and dashed line
+# Plot female income with hotpink color and dashed line
 plt.plot(yr, femaleInc, color='hotpink', linestyle='--', linewidth=2, label='Female Average Income')
 
 # Add labels and title
