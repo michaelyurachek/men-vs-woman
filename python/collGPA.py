@@ -21,10 +21,10 @@ fColgpa = df['Avg College GPA (Female)']
 # Plotting
 plt.figure(figsize=(10,6))
 
-# Plot male high school GPA with blue color and solid line
+# Plot male college GPA with blue color and solid line
 plt.plot(yr, mColgpa, color='blue', linestyle='-', linewidth=2, label='Male College GPA')
 
-# Plot female high school GPA with hotpink color and dashed line
+# Plot female college GPA with hotpink color and dashed line
 plt.plot(yr, fColgpa, color='hotpink', linestyle='--', linewidth=2, label='Female College GPA')
 
 # Add labels and title
